@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group0">
+        <item
+            android:id="@+id/menu_info"
+            android:icon="@mipmap/ic_launcher"
+            android:title="交流区域"/>
+
+        <item
+            android:id="@+id/menu_pwd"
+            android:icon="@mipmap/ic_launcher"
+            android:title="平台登录"/>
+    </group>
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/menu_data"
+            android:icon="@drawable/data1"
+            android:title="数据采集"/>
+
+        <item
+            android:id="@+id/menu_control"
+            android:icon="@drawable/control"
+            android:title="设备控制"/>
+
+        <item
+            android:id="@+id/menu_exit"
+            android:icon="@mipmap/ic_launcher"
+            android:title="退出登录"/>
+    </group>
+</menu>

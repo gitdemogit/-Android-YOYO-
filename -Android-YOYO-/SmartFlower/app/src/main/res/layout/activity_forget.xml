@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <include layout="@layout/view_title_frame"></include>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="77dp"
+        android:src="@drawable/fogo1">
+    </ImageView>
+    <EditText
+        android:id="@+id/et_iphone"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="38dp"
+        android:background="@drawable/style_botton"
+        android:hint="     请输入手机号"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLength="11"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <requestFocus />
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="38dp"
+        android:background="@drawable/style_botton"
+        android:hint="     请输入账号"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLength="11"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <requestFocus />
+
+    <EditText
+        android:id="@+id/et_newpassword"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="38dp"
+        android:background="@drawable/style_botton"
+        android:hint="     请输入新密码"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:maxLength="11"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <requestFocus />
+    <EditText
+        android:id="@+id/et_newpassword_agin"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginRight="38dp"
+        android:background="@drawable/style_botton"
+        android:hint="     确认新密码"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:maxLength="11"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <requestFocus />
+
+    <Button
+        android:onClick="onclick"
+        android:id="@+id/button_xg"
+        android:background="@drawable/style_botton2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="点击修改"
+        android:textSize="20sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="650dp">
+    </Button>
+</RelativeLayout>
